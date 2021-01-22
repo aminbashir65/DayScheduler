@@ -26,10 +26,3 @@ SO THAT I can manage my time effectively
 ```
 
 
-## Deployed-App
-
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-
