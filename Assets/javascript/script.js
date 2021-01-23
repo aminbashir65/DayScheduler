@@ -25,10 +25,10 @@ $(document).ready(function () {
     //background color changes with moment js
     let currentTime = moment().hour();
     if (currentTime > 9) {
-        $(storeNine).css("backgroundColor", "lightblue")
+        $(storeNine).css("backgroundColor", "blue")
     }
     else if (currentTime === 9) {
-        $(storeNine).css("backgroundColor", "blue")
+        $(storeNine).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 9) {
         $(storeNine).css("backgroundColor", "lightgreen")
@@ -36,10 +36,10 @@ $(document).ready(function () {
 
     //Background color for 10 AM
     if (currentTime > 10) {
-        $(storeTen).css("backgroundColor", "lightblue")
+        $(storeTen).css("backgroundColor", "blue")
     }
     else if (currentTime === 10) {
-        $(storeTen).css("backgroundColor", "blue")
+        $(storeTen).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 10) {
         $(storeTen).css("backgroundColor", "lightgreen")
@@ -47,10 +47,10 @@ $(document).ready(function () {
 
     //Background color for 11 AM
     if (currentTime > 11) {
-        $(storeEleven).css("backgroundColor", "lightblue")
+        $(storeEleven).css("backgroundColor", "blue")
     }
     else if (currentTime === 11) {
-        $(storeEleven).css("backgroundColor", "blue")
+        $(storeEleven).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 11) {
         $(storeEleven).css("backgroundColor", "lightgreen")
@@ -58,10 +58,10 @@ $(document).ready(function () {
 
     //Background color for 12 AM
     if (currentTime > 12) {
-        $(storeTwelve).css("backgroundColor", "lightblue")
+        $(storeTwelve).css("backgroundColor", "blue")
     }
     else if (currentTime === 12) {
-        $(storeTwelve).css("backgroundColor", "blue")
+        $(storeTwelve).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 12) {
         $(storeTwelve).css("backgroundColor", "lightgreen")
@@ -69,10 +69,10 @@ $(document).ready(function () {
 
     //Background color for 1 PM
     if (currentTime > 13) {
-        $(storeOne).css("backgroundColor", "lightblue")
+        $(storeOne).css("backgroundColor", "blue")
     }
     else if (currentTime === 13) {
-        $(storeOne).css("backgroundColor", "blue")
+        $(storeOne).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 13) {
         $(storeOne).css("backgroundColor", "lightgreen")
@@ -80,10 +80,10 @@ $(document).ready(function () {
 
     //Background color for 2 PM
     if (currentTime > 14) {
-        $(storeTwo).css("backgroundColor", "lightblue")
+        $(storeTwo).css("backgroundColor", "blue")
     }
     else if (currentTime === 14) {
-        $(storeTwo).css("backgroundColor", "blue")
+        $(storeTwo).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 14) {
         $(storeTwo).css("backgroundColor", "lightgreen")
@@ -91,10 +91,10 @@ $(document).ready(function () {
 
     //Background color for 3 PM
     if (currentTime > 15) {
-        $(storeThree).css("backgroundColor", "lightblue")
+        $(storeThree).css("backgroundColor", "blue")
     }
     else if (currentTime === 15) {
-        $(storeThree).css("backgroundColor", "blue")
+        $(storeThree).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 15) {
         $(storeThree).css("backgroundColor", "lightgreen")
@@ -102,10 +102,10 @@ $(document).ready(function () {
 
     //Background color for 4 PM
     if (currentTime > 16) {
-        $(storeFour).css("backgroundColor", "lightblue")
+        $(storeFour).css("backgroundColor", "blue")
     }
     else if (currentTime === 16) {
-        $(storeFour).css("backgroundColor", "blue")
+        $(storeFour).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 16) {
         $(storeFour).css("backgroundColor", "lightgreen")
@@ -113,10 +113,10 @@ $(document).ready(function () {
 
     //Background color for 5 PM
     if (currentTime > 17) {
-        $(storeFive).css("backgroundColor", "lightblue")
+        $(storeFive).css("backgroundColor", "blue")
     }
     else if (currentTime === 17) {
-        $(storeFive).css("backgroundColor", "blue")
+        $(storeFive).css("backgroundColor", "lightblue")
     }
     else if (currentTime < 17) {
         $(storeFive).css("backgroundColor", "lightgreen")
